@@ -1,0 +1,34 @@
+h1, h2 {
+    display: inline;
+    background-color: cyan;
+}
+label, input {
+    display: block;
+}
+
+.lorem{
+    display: inline-block;
+    width: 160px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgba(146, 24, 245, 0.836);
+    margin: 10px;
+  }
+  
+  p {
+    display: inline-block;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lightgreen;
+    margin: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: darkslategrey;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 10px;
+  }
+  

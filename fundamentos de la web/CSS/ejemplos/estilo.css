@@ -1,0 +1,103 @@
+body{
+    background-color:white;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+}
+
+p {
+    text-align: center;
+}
+.is-centered {
+    text-align: center;
+}
+.is-red {
+    color: red;
+}
+
+#game {
+    width: 320px;
+    height: 240px;
+    overflow: hidden;
+    background: linear-gradient(#1293f5, #bae8ff 80%, #35b236 80%);
+}
+#player {
+    margin-top: 140px;
+    margin-left: 50px;
+}
+/* No te preocupes por saber cuáles son todas estas propiedades todavía */
+/* volveremos a ellas más tarde, ¡lo prometemos! */
+
+
+
+h1 {
+    color: rebeccapurple !important;
+}
+.green {
+    color: mediumseagreen !important;
+}
+#red {
+    color: tomato !important;
+}
+
+
+
+.quote p {
+    color: darkslategrey;
+    font-style: italic;
+}
+
+* {
+    outline: 1px solid black;
+}
+
+
+.header > img {
+    height: 50px;
+}
+
+
+
+input {
+    padding: 5px;
+    border-color: rebeccapurple;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+}
+input[type="submit"] {
+    color: white;
+    background-color: rebeccapurple;
+}
+ 
+h1 {
+    color: cyan !important;
+    background-color: grey;
+    text-align: center;
+  }
+
+  a {
+    width: 25px;
+  }
+  div {
+    width: 100%;
+    height: 200px;
+  }
+  img {
+    width: 250px;
+  }
+
+  button {
+    border: 2px dotted green;
+  }
+  div {
+    border: 1px solid #000000;
+  }
+  p {
+    border-right: 1px groove rgb(100,100,100);
+    border-left: 1px groove rgb(200,200,200);
+  }
+

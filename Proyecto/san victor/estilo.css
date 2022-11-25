@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+     padding: 0%;
+     /*outline: solid 1px black;*/
+ }
+ body{
+     padding:  1em;
+     margin: 1em;
+ }
+ .cuadro1{
+     background-color: rgb(57, 60, 224);
+     font-family: sans-serif;
+     margin: 10px;
+     padding: 10px;
+     display: flex;
+     vertical-align: center;
+     justify-content: flex-start;
+     border-radius: 20px;
+     letter-spacing: 2px;
+ }
+ .iccp{
+     margin-left: 10px;
+     padding: 5px;
+     width:80px ;
+     height:80px;
+ }
+ .cuadro1 h2{
+     margin-left: 10px;
+     margin-top: 30px;
+     color: white;
+ }
+ .liceo{
+     margin: 10px;
+     padding: 15px;
+     border-radius: 20px;
+     height: 400px;
+     width: 670px;
+ }
+ 
+ .padmar{
+    height: 25vh;
+    width: 100vh;
+     margin: 5px;
+     padding: 10px;
+     border-radius: 20px;
+     background-color: rgb(57, 60, 224);
+     display: inline-block;
+     vertical-align: top;
+     margin-left: 15px;
+     margin-top: 10px;
+     text-align: center;
+    
+    
+ }
+ .text{
+     background-color: rgb(241, 241, 241);
+     text-align: center;
+     display: flex;
+     border-radius: 15px;
+     margin: 15px;
+     padding: 10px;
+     font-size:25px ;
+     align-items: center;
+ }
+ 
+ 
+ .card {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     max-width: 700px;
+     margin: 10px;
+     border-radius: 20px;
+     background-color: rgb(57, 60, 224);
+     display: inline-block;
+     vertical-align: top;
+     
+     
+   }
+ .padmar1{
+    height: 25vh;
+    width: 100vh;
+     margin: 5px;
+     padding: 10px;
+     border-radius: 20px;
+     background-color:  rgb(57, 60, 224);
+     display: inline-block;
+     vertical-align: top;
+     margin-left: 740px;
+     margin-top: -470px;
+     text-align: center;
+ 
+ }
+ .text1{
+     margin-top: 15px;
+     padding: 10px;
+     font-size: 30px;
+     font-weight: bold;
+     color: white;
+     font-family:sans-serif;
+    letter-spacing: 4px;
+    text-align:center;
+    align-items: center;
+ }
+ .padmar2{
+    height: 25vh;
+    width: 100vh;
+     margin: 5px;
+     padding: 10px;
+     border-radius: 20px;
+     background-color: rgb(57, 60, 224);
+     display: inline-block;
+     vertical-align: top;
+     margin-left: 740px;
+     margin-top: -250px;
+     text-align: center;
+ 
+ }

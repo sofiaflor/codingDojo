@@ -1,0 +1,36 @@
+.btndos{
+    margin: 0 20px;
+    position: relative;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 15px;
+    background: rgb(143, 26, 26);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    overflow: hidden;
+    height: 80px;
+    width: 300px;
+}
+.btndos span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+   
+    top: -50%;
+    left: 100%;
+    transition: .3s;
+
+}
+.btndos:hover span{
+    left: -20%;
+
+}
+.btndos:hover{
+    color:rgb(5, 5, 7);
+    background: rgb(132, 178, 231);
+
+
+}

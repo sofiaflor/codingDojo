@@ -1,0 +1,15 @@
+.cuadro{
+   background-color: black;
+   color: white;
+   height: 80px;
+   display: flex;
+   align-items:center;
+   justify-content: space-between;
+}
+.links{
+   display: flex;
+   align-items: center;
+   list-style-type:none;
+   justify-content: space-around;
+   width: 40%;
+}

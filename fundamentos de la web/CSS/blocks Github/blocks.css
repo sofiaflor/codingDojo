@@ -1,0 +1,49 @@
+.principal{
+
+   
+    background-color: gray;
+}
+h1 {
+    text-align: center;
+
+}
+
+.cuadro1 {
+
+    background-color: rgb(106, 197, 233);
+
+}
+
+.cuadro2 {
+
+    background-color: palevioletred;
+}
+
+.cuadro3{
+
+    background-color:purple;
+}
+img.octocat {
+    height: 220px;
+    margin: 20px;
+   align-items: center;
+   
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.justify-content-space-evenly{
+    justify-content: space-evenly;
+}
+
+.justify-content-space-around{
+    justify-content: space-around;
+}

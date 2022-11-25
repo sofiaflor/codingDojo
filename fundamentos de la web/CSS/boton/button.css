@@ -1,0 +1,26 @@
+.boton1{
+    border-radius: 25px;
+    height: 35px;
+    width: 120px;
+    border-color: aqua;
+    background-color: white;
+    color: hsl(180, 54%, 38%);
+  
+}
+
+.boton2{
+   border-radius: 25px;
+    height: 30px; 
+    width: 30px;
+    background-color: aqua;
+    border-color: aqua;
+    color: white;
+}
+
+.boton3{
+height: 30px ;
+width:150px ;
+background-color: rgb(46, 114, 170) ;
+color: white;
+box-shadow: 3px 3px black;
+}
