@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    
+   
+}
+
+
+.nav  {
+    height: 90px;
+    background-color: rgb(107, 107, 107);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.nav-title {
+    color: rgb(255, 255, 255);
+}
+input{
+    width: 300px;
+    outline: 2px solid black;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    list-style: none;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.th4{
+    font-size: larger;
+    text-align: center;
+}
+
+.b1{
+    background-color: yellow;
+    box-shadow:4px 4px black ;
+    margin: 15px;
+    width: 80px;
+    height: 30px;
+}
+.active {
+    color: rgb(0, 0, 0);
+}
+
+.btn {
+    background-color: rgb(41, 28, 230);
+    color: white;
+    height: 40px;
+    width: 100px;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+
+.container {
+    margin: 20px;
+    padding: 0px;
+    align-items: center;
+    outline: 2px solid black;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    background-color: aquamarine;
+    flex: 3;
+    margin: 10px;
+    padding: 20px;
+    height: 50px;
+}
+
+.img {
+    margin-top: 30px;
+
+}
+
+.text {
+    padding: 25px;
+   
+}
+
+.b2{
+    background-color: rgb(0, 255, 21);
+    box-shadow:4px 4px black ;
+    margin: 15px;
+    width: 150px;
+    height: 30px;  
+}
+
+.text-1 {
+    margin: 15px;
+}
+
+
+.container1 {
+    margin: 20px;
+    padding: 10px;
+    outline: solid black 2px;
+    
+}
+
+.justifi-contect-flex-space-around {
+    justify-content: space-between;
+}
+
+
+
+.display-flex-justifi-conte {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.imgs1 {
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.imgs {
+    height: 25px;
+    margin-left: 10px;
+
+}
+
+.btn2 {
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+}
+.display-flex-justify-contec {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.justify-contec-flex-space-aroumd {
+    justify-content: space-between;
+}
+.container2{
+    
+    margin: 20px;
+    padding: 0px;
+    align-items: center;
+    outline: 2px solid black; 
+}
+.justify-contec-flex-space-around{
+margin: 10px;
+}
+.col1{
+   margin: 10px; 
+}
+
+
+
+
+
+
+.filas{
+display: flex;
+justify-content: center;
+}
+
+.columna1{
+    flex :1
+    }
+.columna2{
+        flex : 3
+        }
+
