@@ -1,11 +1,4 @@
-console.log("page loaded...");
- 
-
-function playvideo(video){
-    video.play();
-}
-
-function pausevideo(video){
-    video.pause();
-    video.currentime=0;
+function myFunction () {
+    var x= document.getElementById ("MyVideo"). duration ;
+    document.getElementById ("demo").innerHTML = x;
 }
