@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    
+   
+}
+
+
+.nav  {
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    margin:20px;
+   
+}
+
+.nav-title {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    
+}
+.tex{
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.card1{
+   padding: 10px;
+   margin: 25px;
+   text-align: center;
+
+}
+
+.container {
+    margin: 20px;
+    padding: 0px;
+    align-items: center;
+    outline: 2px solid black;
+}
+.tex1{
+   margin-top: 10px;
+}
+.row1{
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+}
+
+
+#post{
+    margin: 20px;
+}
+
+
+.th4{
+    font-size: larger;
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+
+.text {
+    margin: 10px;
+   
+}
+.container2{
+    
+    margin: 20px;
+    padding: 0px;
+    align-items: center;
+    outline: 2px solid black; 
+}
+#like-btn{
+    background-color: yellow;
+    box-shadow:4px 4px black ;
+    margin: 20px 15px;
+    width: 80px;
+    height: 30px;
+    font-size: larger;
+}
+.likes{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    margin: 25px 10px;
+}
+
+
+
+
+
+.filas{
+display: flex;
+justify-content: center;
+}
+
+.columna1{
+    flex :1
+    }
+.columna2{
+        flex : 3
+        }
+
