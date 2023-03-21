@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.nav {
+    height: 60px;
+    background-color: rgb(122, 186, 238);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-title {
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    list-style: none;
+    color: aliceblue;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 120px;
+    margin: 0px 20px;
+
+}
+.text{
+    margin: 20px 20px;
+   
+}
+.cuadro1{
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin:20px 150px;
+    background-color: rgba(177, 177, 177, 0.61);
+    width: 250px;
+    text-align: center;
+}
+.cuadro1 img{
+    border-radius: 50%;
+    height: 150px;
+}
+.text1{
+    margin:15px ;
+    padding: 20px;
+}
+
+.rojo{
+    color: red;
+}
+.azul{
+    color: blue;
+}
+
+.temperatura{
+    display: flex;
+    justify-content: space-around;
+     padding: 20px;
+    
+}
+.cuadro2{
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin:20px 150px;
+    background-color: rgba(177, 177, 177, 0.61);
+    width: 250px;
+    text-align: center;
+}
+.cuadro3{
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin:20px 150px;
+    background-color: rgba(177, 177, 177, 0.61);
+    width: 250px;
+    text-align: center;
+}
+.cuadro4{
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin:20px 150px;
+    background-color: rgba(177, 177, 177, 0.61);
+    width: 250px;
+    text-align: center;
+}

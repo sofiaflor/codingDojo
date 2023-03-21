@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="nav">
+        <h1 class="nav-title">DojoWeather</h1>
+        <ul class="nav-links">
+            <li>Burbank</li>
+            <li>Chicago</li>
+            <li>Dallas</li>
+        </ul>
+    </div>
+    <div class="fila">
+        <div class="container">
+            <h1 class="text">San Jose</h1>
+            <form>
+                <span>Show temperature in </span>
+                <select name="temperature-scale" onchange="convert(this)">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="fila">
+        <div class="cuadro1">
+            <h1 class="text1">Today</h1>
+            <img src="some_rain.png" alt="">
+            <p>some rain</p>
+            <p class="temperatura">
+                <span class="rojo" id="tem1">24°</span>
+                <span class="azul" id="tem2">18°</span>
+            </p>
+        </div>
+       
+        <div class="cuadro2">
+            <h1 class="text1">Tomorrow</h1>
+            <img src="some_sun.png" alt="">
+            <p>some sun</p>
+            <p class="temperatura">
+                <span class="rojo" id="tem3">27°</span>
+                <span class="azul" id="tem4">19°</span>
+            </p>
+        </div>
+
+        <div class="cuadro3">
+            <h1 class="text1">Friday</h1>
+            <img src="some_clouds.png" alt="">
+            <p>some clouds</p>
+            <p class="temperatura">
+                <span class="rojo" id="tem5">21°</span>
+                <span class="azul" id="tem6">16°</span>
+            </p>
+        </div>
+
+        <div class="cuadro4">
+            <h1 class="text1">Saturday</h1>
+            <img src="some_sun.png" alt="">
+            <p>some sum</p>
+            <p class="temperatura">
+                <span class="rojo" id="tem7">26°</span>
+                <span class="azul" id="tem8">21°</span>
+            </p>
+        </div>
+    </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
