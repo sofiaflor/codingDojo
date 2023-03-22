@@ -25,11 +25,15 @@
     color: aliceblue;
 
 }
-
+.linea{
+    outline: solid 0.5px black;
+    
+    
+}
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
     margin: 0px 20px;
@@ -42,17 +46,16 @@
 }
 
 .cuadro {
-    justify-content: center;
-    align-items: center;
-    margin: 20px 150px;
+    width: 200px;
+    height: 300px;
     background-color: rgba(177, 177, 177, 0.61);
     text-align: center;
 }
 
 .imgs {
     border-radius: 50%;
-    height: 150px;
-    padding: 50px;
+    height: 80px;
+    
 }
 
 .text1 {
@@ -83,7 +86,6 @@
     display: flex;
     justify-content: space-between;
     margin: 20px 40px;
-    justify-content: center;
    
 }
 
