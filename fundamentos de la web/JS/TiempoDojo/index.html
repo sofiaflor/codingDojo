@@ -13,83 +13,85 @@
     <div class="nav">
         <h1 class="nav-title">DojoWeather</h1>
         <ul class="nav-links">
-            <li>Burbank</li>
-            <li>Chicago</li>
-            <li>Dallas</li>
+            <li onclick="cargar()">Burbank</li>
+            <li onclick="cargar()">Chicago</li>
+            <li onclick="cargar()">Dallas</li>
         </ul>
     </div>
     <div class="fila">
         <div class="container">
             <h1 class="text">San Jose</h1>
             <form>
-                <span>Show temperature in </span>
-                <select name="temperature-scale" onchange="convert(this)">
-                    <option>°C</option>
-                    <option>°F</option>
-                </select>
+                <h3>Show temperature in
+                    <select name="temperature-scale" onchange="convert(this)">
+                        <option>°C</option>
+                        <option>°F</option>
+                    </select>
+                </h3>
             </form>
         </div>
 
     </div>
+    <div class="linea"></div>
 
-    <div class="fila">
-        <div class="cuadro1">
-            <h1 class="text1">Today</h1>
-            <img src="some_rain.png" alt="">
+    <div class="fila1">
+        <div class="cuadro">
+            <h1 class="text1"> Today </h1>
+            <img class="imgs" src="some_rain.png" alt="">
             <p>some rain</p>
             <p class="temperatura">
-                <span class="rojo" id="tem1">24°</span>
-                <span class="azul" id="tem2">18°</span>
+                <span class="rojo">24°</span>
+                <span class="azul">18°</span>
             </p>
         </div>
-       
-        <div class="cuadro2">
+
+        <div class="cuadro">
             <h1 class="text1">Tomorrow</h1>
-            <img src="some_sun.png" alt="">
+            <img class="imgs" src="some_sun.png" alt="">
             <p>some sun</p>
             <p class="temperatura">
-                <span class="rojo" id="tem3">27°</span>
-                <span class="azul" id="tem4">19°</span>
+                <span class="rojo">27°</span>
+                <span class="azul">19°</span>
             </p>
         </div>
 
-        <div class="cuadro3">
-            <h1 class="text1">Friday</h1>
-            <img src="some_clouds.png" alt="">
+        <div class="cuadro">
+            <h1 class="text1"> Friday </h1>
+            <img class="imgs" src="some_clouds.png" alt="">
             <p>some clouds</p>
             <p class="temperatura">
-                <span class="rojo" id="tem5">21°</span>
-                <span class="azul" id="tem6">16°</span>
+                <span class="rojo">21°</span>
+                <span class="azul">16°</span>
             </p>
         </div>
 
-        <div class="cuadro4">
+        <div class="cuadro">
             <h1 class="text1">Saturday</h1>
-            <img src="some_sun.png" alt="">
+            <img class="imgs" src="some_sun.png" alt="">
             <p>some sum</p>
             <p class="temperatura">
-                <span class="rojo" id="tem7">26°</span>
-                <span class="azul" id="tem8">21°</span>
+                <span class="rojo">26°</span>
+                <span class="azul">21°</span>
             </p>
         </div>
     </div>
 
+    <div class="fila2">
+        <div class="container2">
+            <img class="imgs" src="cookie.png" alt="">
+            <h3 class="galleta">Stop! Cookie time<br>
+            <span>We use cookie (sadly not the edible ones) to personalize<br>
+                content and ads. to provide social media feactures and to<br>
+                analyse our traffic. <a href="">Read more</a></span>
+            </h3>
+            <input onclick="aceptar()" class="btn"  type="button" value="I Accept">
 
 
+        </div>
     </div>
 
 
-
-
-
-
-
-
-
-
-
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 

@@ -23,76 +23,96 @@
     width: 40%;
     list-style: none;
     color: aliceblue;
-    
+
 }
-.container{
+
+
+.container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 20px;
-    height: 120px;
     margin: 0px 20px;
 
 }
-.text{
+
+.text {
     margin: 20px 20px;
-   
-}
-.cuadro1{
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    margin:20px 150px;
-    background-color: rgba(177, 177, 177, 0.61);
-    width: 250px;
-    text-align: center;
-}
-.cuadro1 img{
-    border-radius: 50%;
-    height: 150px;
-}
-.text1{
-    margin:15px ;
-    padding: 20px;
+
 }
 
-.rojo{
+.cuadro {
+    justify-content: center;
+    align-items: center;
+    margin: 20px 150px;
+    background-color: rgba(177, 177, 177, 0.61);
+    text-align: center;
+}
+
+.imgs {
+    border-radius: 50%;
+    height: 150px;
+    padding: 50px;
+}
+
+.text1 {
+    margin: 15px;
+    padding: 25px;
+}
+
+.rojo {
     color: red;
 }
-.azul{
+
+.azul {
     color: blue;
 }
 
-.temperatura{
+.temperatura {
     display: flex;
     justify-content: space-around;
-     padding: 20px;
-    
+    padding: 20px;
+
 }
-.cuadro2{
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    margin:20px 150px;
-    background-color: rgba(177, 177, 177, 0.61);
-    width: 250px;
-    text-align: center;
+
+.fila{
+    margin: 20px 40px;
 }
-.cuadro3{
+
+.fila1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
     justify-content: center;
-    align-items: center;
-    flex: 1;
-    margin:20px 150px;
-    background-color: rgba(177, 177, 177, 0.61);
-    width: 250px;
-    text-align: center;
+   
 }
-.cuadro4{
+
+.fila2 {
+    margin: 20px 40px;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    flex: 1;
-    margin:20px 150px;
-    background-color: rgba(177, 177, 177, 0.61);
-    width: 250px;
-    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    outline: solid 1px black;
+
+}
+.galleta{
+    justify-items: center;
+    margin: 40px 20px;
+}
+
+.btn {
+    background-color: rgb(81, 200, 230);
+    color: white;
+    height: 60px;
+    width: 200px;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+    font-size: larger;
+    margin-top: 60px;
+    margin-right: 200px;
+
+
 }
