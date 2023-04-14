@@ -1,0 +1,264 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    width: 2000px;
+    margin: auto;
+}
+
+.img_one{
+    height: 45px;
+}
+.nav_one{
+    display: flex;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(245, 235, 220) ;
+    
+}
+.barra_one{
+    padding: 30px;
+}
+.links_one{
+    list-style-type: none;
+    display: flex;
+    width: 150%;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    font-size: small;
+    font-weight:600;
+}
+.titulo{
+    color: #643323;
+    font-family: fantasy; 
+    font-weight:lighter; 
+    letter-spacing: 1px;
+}
+.c1{
+  display: flex;  
+  margin-right: 600px;
+  align-items: center;
+}
+.imgs{
+    width: 100%;
+}
+.container_one{
+   background-color: rgb(245, 235, 220);
+}
+.tex{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 550px;
+}
+
+.a1{
+    text-decoration: none;
+    color: rgb(255, 19, 19);
+    position: relative;
+    left: 100px;
+    top: 20px;
+    font-size: medium;
+}
+.c2{
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: 50px;
+    
+}
+.img{
+    margin-top: 50px;
+   position: relative;
+   right: 30px;
+}
+.one{
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 15px;
+}
+.c3{
+    background-color: rgb(239, 224, 204);
+    width: 59%;
+    margin-left: 19%;
+    margin-top: 100px;
+    border-radius: 20px;
+    display: flex;
+}
+.cont{
+    padding: 50px;
+}
+#barra{
+    width: 530px;
+    height: 55px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.texto1{
+    margin-top: 15px;
+    color: rgb(95, 74, 75);
+}
+::placeholder{
+    color: rgb(92, 52, 28);
+    font-size: larger;
+    position: relative;
+    left: 10px;
+}
+.img_three{
+    position: relative;
+    left: 80px;
+}
+.c4{
+    margin-left: 20%;
+    margin-top: 100px;
+}
+.two{
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 15px;
+}
+.img_two{
+    margin-top: 50px;
+   position: relative;
+   right: 15px;
+}
+.cont1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.c5{
+    display: flex;
+    margin-top: 20px;
+    width: 59%;
+    position: relative;
+    right: 25px;
+}
+.p1{
+    margin-top: 15px;
+    color:rgb(136, 79, 43);
+    font-size:large;
+    
+}
+.card_one{
+    position: relative;
+    left: 10px;
+    width: 95%;
+    margin-top: 20px;
+}
+.container_two{
+   background-color: #D72300;
+   margin-top: 30px;
+
+}
+.delivery{
+    background-color: white;
+    width: 25%;
+    position: relative;
+    top: 90px;
+    margin-left: 20%;
+    border-radius: 20px;
+}
+button{
+    background-color: #e90c0c;
+    text-align: center;
+    width: 90%;
+    color: white;
+    font-size: large;
+    border-radius: 30px;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.img_1{
+    margin-top: 20px;
+    
+}
+.celu{
+    margin-top: 10%;
+    margin-left: 25%;
+    display: flex;
+}
+.card_two{
+    width: 40%;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+.imgs_two{
+    margin-top: 20%;
+}
+.app{
+    color: white;
+    font-size: small;
+    margin-top: 10px;
+    position: relative;
+    top: 20px;
+    bottom: 30px;
+}
+.height{
+    height: 60px;
+}
+.container_three{
+    background-color: #502314;
+    
+}
+.cuadro{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 20%;
+    position: relative;
+    top: 30px;
+    height: 200px;
+}
+.info{
+    display: flex;
+    
+}
+.lista{
+    list-style-type: none;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.l1{
+    margin-top: 10px;
+}
+.cuadro2{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 80px;
+   position: relative;
+   bottom: 40px;
+}
+.imgs_three{
+  position: relative;
+  left: 90px;
+}
+.four{
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.blanco{
+    font-family: fantasy; 
+    font-weight:inherit; 
+    letter-spacing: 1px;
+    
+    font-size: 40px; 
+    color: white;
+}
+.size{
+    font-size: large;
+    position: relative;
+    left: 25px;
+}

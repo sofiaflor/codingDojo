@@ -4,13 +4,14 @@
     font-family: sans-serif;
 }
 .container_primer{
-    width: 1500px;
+    background: linear-gradient(rgb(21, 44, 105),rgb(53, 88, 134));  
+    width: 1600px;
     margin: auto;
 }
 
 .navone {
     height: 80px;
-    background-color: #dbdadac7;
+    background-color: #dbdada;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -53,8 +54,8 @@
     
 }
 .fila_one{
-    background-color: rgba(56, 91, 167, 0.767);
-    padding: 20px;
+
+    padding: 10px;
     display: flex;
     
 }
@@ -66,7 +67,10 @@
 }
 .columna_one{
    margin: 20px ;
-   
+}
+.container_one{
+    margin: 20px ;
+    border: white solid 2px  ;  
 }
 .formulario{
     padding: 20px;
@@ -82,25 +86,29 @@
     background-color: #fdf9f9c7;
 }
 .formu{
-    width: 200px;
-    height: 25px;
+    margin-left: 10px;
+    width: 250px;
+    height: 40px;
     border-radius: 10px;
+    border-color: white;
 }
 .cuadro_one{
     background: linear-gradient(rgb(21, 44, 105),rgb(53, 88, 134));
     color: white;
     margin: 20px;
     padding: 10px;
+    width: 85%;
     outline: solid 2px white;
 }
 .img_one{
+
     position: relative;
-    top: 20%;
-    height: 40px;
+    top: 15%;
+    height: 30px;
 }
 .img_two{
-    width: 1000px;
-    height: 500px;
+    width: 90%;
+    height: 100%;
 }
 .btn_one{
     height: 40px;
@@ -115,8 +123,9 @@
     font-size: larger;
 }
 .imgs{
+    background: linear-gradient(rgb(59, 90, 224),rgb(25, 62, 143), rgb(3, 13, 48));
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
     width: 1100px;
     
 }
@@ -126,17 +135,29 @@
     justify-content: space-between;
 }
 .container_two{
+    margin-left: 5px;
+    margin-right: 5px;
     display: flex;
     background-color: #dfdfdf;
     padding: 10px;
     
 }
+
+.text_six{
+    margin-left: 1em;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 5px;
+    font-size: 1.2em;
+    font-weight: 900;
+}
 .text_seven{
+    margin-left: 1em;
     color: rgb(26, 78, 138);
     position: relative;
-    top: 2px;
     left: 5px;
-
+    font-size: 1.2em;
+    font-weight: 900;
     
 }
 .container_three{
@@ -162,6 +183,7 @@
     margin: 10px;
 }
 .imgs_one{
+
     margin-right: 10px;
 }
 p{
@@ -175,9 +197,7 @@ p{
     padding: 10px;
 }
 
-.imgs{
-    background: linear-gradient(rgb(59, 90, 224),rgb(25, 62, 143), rgb(3, 13, 48));
-}
+
 .cuadro_seven{
     display: flex;
     width: 30%;
@@ -196,8 +216,13 @@ p{
 .barra_two{
     list-style-type:none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 60%;
     font-size:larger;
     color:rgb(51, 51, 51) ; 
+}
+
+span{
+    margin-left: 10px;
+    margin-right: 10px;
 }

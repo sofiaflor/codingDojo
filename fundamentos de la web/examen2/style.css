@@ -100,6 +100,7 @@
     background-color: rgb(221, 221, 221);
     justify-content: space-around;
     height: 100px;
+    border-color: rgb(77, 77, 77);
 }
 
 .tex_one {
@@ -125,33 +126,33 @@
 }
 
 .container_four {
-    display: flex;
     margin: 20px;
     padding: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
+    display: flex; 
+    
 }
 
+
 .cuadro_one {
-    outline: solid 2px rgba(0, 0, 0, 0.459);
-    padding: 10px;
+    padding: 0px;
     width: 20%;
+    
+    
 }
 
 .cuadro_two {
-    outline: solid 2px rgba(0, 0, 0, 0.459);
-    padding: 20px;
+    padding: 0px;
     width: 20%;
 }
 
 .cuadro_three {
-    outline: solid 2px rgba(0, 0, 0, 0.459);
-    padding: 10px;
+    padding: 0px;
     width: 20%;
 }
 
 .cuadro_four {
-    outline: solid 2px rgba(0, 0, 0, 0.459);
-    padding: 10px;
+    padding: 0px;
     width: 20%;
 }
 
@@ -187,7 +188,7 @@
     border-radius: 5px;
     position: relative;
     left: 40px;
-    top: 5px;
+    top: 10px;
 }
 
 .btn_tw {
@@ -198,7 +199,7 @@
     border-radius: 5px;
     position: relative;
     left: 40px;
-    top: 25px;
+    top: 15px;
     
 }
 
@@ -210,7 +211,7 @@
     border-radius: 5px;
     position: relative;
     left: 40px;
-    top: 5px;
+    top: px;
 }
 
 .btn_three {
@@ -221,7 +222,7 @@
     border-radius: 5px;
     position: relative;
     left: 40px;
-    top: 5px;
+    
 
 }
 
@@ -233,7 +234,7 @@
     border-radius: 5px;
     position: relative;
     left: 40px;
-    top: 20px;
+    top: 15px;
 
 }
 
@@ -258,12 +259,6 @@
     padding: 30px;
 }
 
-.linea {
-    outline: solid 1px rgba(110, 110, 110, 0.76);
-    position: relative;
-    top: 5px;
-}
-
 .lista {
     margin-top: 20px;
 }
@@ -274,5 +269,8 @@
 .t1{
     margin-top:15px;
 
+}
+.container_six{
+    outline: solid 2px rgba(163, 159, 159, 0.863);
 }
 
