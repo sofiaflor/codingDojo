@@ -1,0 +1,37 @@
+#Reloj {
+    background-color: #e7e7e7;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 7px solid black;
+    position: relative;
+}
+      
+#m-minutos, #m-hora, #m-segundos {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: top center;
+}
+      
+#m-segundos {
+    background-color: red;
+    height: 130px;
+    width: 2px;
+    transform: rotate(calc(var(--segundos) * 6deg));
+}
+      
+#m-hora {
+    background-color: black;
+    height: 100px;
+    width: 8px;
+    transform: rotate(calc((var(--horas) * 30deg) + 125deg));
+}
+      
+#m-minutos {
+    background-color: grey;
+    height: 120px;
+    width: 4px;
+    transform: rotate(calc((var(--minutos) * 6deg) + 255deg));
+}
+  
